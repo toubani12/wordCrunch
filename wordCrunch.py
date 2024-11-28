@@ -1,8 +1,8 @@
 import os
 import tkinter as tk
 from tkinter import *
-fn=tk()
-
+fn=tk.Tk()
+fn.mainloop()
 pathD=os.path.join(os.path.expanduser("~"), "Desktop")
 numAlpha="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 mac=input("enter the mac adress: \n")
